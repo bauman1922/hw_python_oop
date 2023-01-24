@@ -25,7 +25,7 @@ class InfoMessage:
 
 class Training:
     """Базовый класс тренировки."""
-    LEN_STEP: float = 0.65  # Пусть за 1 шаг (метр).
+    LEN_STEP: float = 0.65  # Путь за 1 шаг (метр).
     M_IN_KM: int = 1000  # Метров в 1 км.
     MIN_IN_H = 60        # Минут в 1 часе.
 
@@ -102,7 +102,7 @@ class SportsWalking(Training):
 
 class Swimming(Training):
     """Тренировка: плавание."""
-    LEN_STEP: float = 1.38  # Пусть за 1 гребок (метр).
+    LEN_STEP: float = 1.38  # Путь за 1 гребок (метр).
     COEFF_5 = 1.1  # Константа калорий - 1.1.
     COEFF_6 = 2  # Константа калорий - 2.
 
