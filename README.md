@@ -13,12 +13,15 @@ cd hw_python_oop
 ```
 - Cоздать и активировать виртуальное окружение (для Windows):
 ```
-python -m venv env
+python -m venv venv
 ````
 ````
 source venv/scripts/activate
 ````
-- Обновить установщик пакетов pip:
+- Установить зависимости из файла requirements.txt:
+```
+python -m pip install --upgrade pip
+```
 ```
 pip install -r requirements.txt
 ```
